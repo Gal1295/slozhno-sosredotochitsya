@@ -31,7 +31,7 @@
   block-size: 25px;
   border-block-start: 1px solid var(--section__title-color, #ff0070);
   border-inline-end: 1px solid var(--section__title-color, #ff0070);
-  inset-block-start: 10px;  
+  inset-block-start: 10px;
   inset-inline-end: 0px;
 }
 
@@ -62,7 +62,7 @@
   inline-size: 9px;
   block-size: 9px;
   border-radius: 50%;
-  inset-block-start: 18px;  
+  inset-block-start: 18px;
   inset-inline-end: 9px;
   box-shadow: 0 0 4px 2px var(--header__rec__color);
   background-color: var(--header__rec__color);
@@ -128,7 +128,7 @@
 }
 
 .header__text {
-  justify-self: end;  
+  justify-self: end;
   font-size: 18px;
   font-weight: 700;
   margin-block-start: 16vi;
