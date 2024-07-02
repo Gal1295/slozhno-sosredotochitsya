@@ -9,12 +9,11 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: var(--text-color);
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   background-color: var(--bg-color);
   background-image: var(--background-image);
 }
 
-/*header*/
 .header {
   position: relative;
   display: grid;
@@ -106,7 +105,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--hover-outline);
+  outline: 1px solid var(--hover);
 }
 
 .header__theme-menu-button:focus {
@@ -198,7 +197,6 @@
 
   .header__text {
     min-inline-size: 491px;
-    margin-block-end: 2vi;
   }
 }
 
@@ -287,6 +285,7 @@
   gap: 20px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 600px) {

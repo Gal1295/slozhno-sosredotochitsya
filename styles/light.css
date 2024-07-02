@@ -4,19 +4,6 @@
   переключая тему
 */
 
-:root.theme_light {
-  --background-image: url(../images/cover-image-light.png);
-  --bg-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --text__shadow-color: #ff0070;
-  --section__title-color: #353430;
-  --title-text-color: #353430;
-  --header__rec__color: transparent;
-  --text-color: #353430;
-  --header-footer-title-color: #ffc2e6;
-  --hover: rgba(50, 49, 45, 0.4);
-}
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light auto dark" />
+    <meta name="color-scheme" content="light dark" />
     <title>Сложно сосредоточиться</title>
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__rec" aria-hidden="true"></div>
+      <span class="header__rec" aria-hidden="true"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -47,7 +47,9 @@
       </nav>
       <h1 class="header__title">no focus</h1>
       <div class="header__text">
-        <p class="title-decor">Что делать, когда не можешь делать ничего</p>
+        <p class="title-decor">
+          Что делать, когда не&nbsp;можешь делать ничего
+        </p>
         <p class="title-decor">
           Или почему нам так сложно сконцентрироваться, особенно когда очень
           надо
@@ -69,7 +71,8 @@
                 class="link__text-shadow"
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7075496/"
                 target="_blank"
-                >выяснили</a>
+                >выяснили</a
+              >
               , что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
               задач, организм паникует и выделяет кортизол и адреналин —
@@ -94,8 +97,10 @@
       </section>
       <section class="section">
         <article class="section__what">
-          <h2 class="section__title">Что снижает концентрацию внимания?</h2>
-          <article class="section__what-task">
+          <h2 class="section__title">
+            Что снижает концентрацию<br />внимания?
+          </h2>
+          <div class="section__what-task">
             <article>
               <h3 class="section__heading title-decor">Многозадачность</h3>
               <p class="section__paragraph">
@@ -131,7 +136,7 @@
                 работе.
               </p>
             </article>
-          </article>
+          </div>
         </article>
       </section>
       <section class="section">
@@ -208,46 +213,36 @@
       <section class="section__pictures">
         <h2 class="section__heading title-decor">А можно в картинках?</h2>
         <div class="content-section__pictures">
-          <div class="picture__sunset">
-            <img
-              loading="lazy"
-              class="picture"
-              src="./images/sunset.png"
-              alt="закат"
-            />
-          </div>
-          <div class="picture__ice-cream">
-            <img
-              loading="lazy"
-              class="picture"
-              src="./images/ice-cream.png"
-              alt="мороженное"
-            />
-          </div>
-          <div class="picture__tape">
-            <img
-              loading="lazy"
-              class="picture"
-              src="./images/tape.png"
-              alt="аудиокасеты"
-            />
-          </div>
-          <div class="picture__books">
-            <img
-              loading="lazy"
-              class="picture"
-              src="./images/books.png"
-              alt="книги"
-            />
-          </div>
-          <div class="picture__street">
-            <img
-              loading="lazy"
-              class="picture"
-              src="./images/street.png"
-              alt="улица"
-            />
-          </div>
+          <img
+            loading="lazy"
+            class="picture picture__sunset"
+            src="./images/sunset.png"
+            alt="закат"
+          />
+          <img
+            loading="lazy"
+            class="picture picture__ice-cream"
+            src="./images/ice-cream.png"
+            alt="мороженное"
+          />
+          <img
+            loading="lazy"
+            class="picture picture__tape"
+            src="./images/tape.png"
+            alt="аудиокасеты"
+          />
+          <img
+            loading="lazy"
+            class="picture picture__books"
+            src="./images/books.png"
+            alt="книги"
+          />
+          <img
+            loading="lazy"
+            class="picture picture__street"
+            src="./images/street.png"
+            alt="улица"
+          />
         </div>
       </section>
     </main>
