@@ -7,7 +7,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-font: "IBM Plex Mono", monospace;
-    --background-image: url(../images/cover-image.png);
+    --background-image: url(../images/cover-image-dark.png);
     --accent-color: #ff0070;
     --header__rec__color: #ff0070;
     --text__shadow-color: #ff0070;

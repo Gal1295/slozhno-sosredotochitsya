@@ -301,7 +301,7 @@
 
 @media (min-width: 844px) {
   .section__what {
-    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
   }
 
   .section__what-task {
@@ -343,7 +343,7 @@
 .content-section__pictures {
   display: grid;
   justify-items: center;
-  gap: 6px;
+  gap: 10px;
 }
 
 .picture {
@@ -354,7 +354,7 @@
 
 .section__pictures {
   font-size: 18px;
-  margin: 10px 10px 9vi 10px;
+  margin: 10px 10px 40px 10px;
 }
 
 @media (min-width: 718px) {
@@ -403,7 +403,7 @@
   }
 
   .section__pictures {
-    margin: 20px 20px 5vi 20px;
+    margin: 20px 20px 60px 20px;
   }
 }
 
