@@ -3,7 +3,6 @@
 .page {
   position: relative;
   min-inline-size: 375px;
-  margin: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,7 +138,7 @@
   color: var(--title-text-color);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 450px) {
   .header {
     grid-template-rows: min-content 1fr min-content 1fr;
     justify-items: end;
@@ -181,7 +180,7 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
@@ -212,7 +211,7 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .section {
     margin: 20px 20px 8vi 20px;
   }
@@ -237,7 +236,7 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .section__why {
     grid-template-columns: 319px repeat(auto-fit, minmax(319px, 1fr));
     gap: 18px;
@@ -299,14 +298,14 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .section__what {
     grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
   }
 
   .section__what-task {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
   }
 }
 
@@ -330,7 +329,7 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .section__how {
     grid-template-columns: 315px repeat(auto-fit, minmax(315px, 1fr));
   }
@@ -354,7 +353,7 @@
 
 .section__pictures {
   font-size: 18px;
-  margin: 10px 10px 40px 10px;
+  margin: 10px 10px 50px 10px;
 }
 
 @media (min-width: 718px) {
@@ -367,7 +366,7 @@
   }
 
   .section__pictures {
-    margin: 20px 20px 8vi 20px;
+    margin: 20px 20px 60px 20px;
   }
 
   .picture__sunset {
@@ -396,14 +395,10 @@
   }
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .content-section__pictures {
     grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
     grid-template-rows: repeat(auto-fill, 260px);
-  }
-
-  .section__pictures {
-    margin: 20px 20px 60px 20px;
   }
 }
 
@@ -414,7 +409,7 @@
   justify-content: center;
   block-size: 100vh;
   min-block-size: 668px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 @media (min-width: 600px) {
@@ -430,7 +425,7 @@
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-@media (min-width: 844px) {
+@media (min-width: 801px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     text-shadow: 2px 2px 0px var(--text__shadow-color);
